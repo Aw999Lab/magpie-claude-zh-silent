@@ -1,0 +1,5 @@
+This plugin builds on magpie-claude-zh (github:jk-uzi/claude-desktop-zh-win), which
+is MIT licensed and itself based on polang233/claude-desktop-zh and
+liwenjinchn/claude-desktop-zh (0.2.x runtime fork). It calls that plugin's exported
+library (lib/runtime-localization.mjs) at runtime and ships none of its code.
+The official Chinese catalogs belong to Anthropic and are not distributed here.

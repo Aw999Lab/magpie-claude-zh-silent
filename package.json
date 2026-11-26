@@ -1,0 +1,19 @@
+{
+  "name": "magpie-claude-zh-silent",
+  "version": "0.1.0",
+  "description": "为原版 Claude Desktop（Windows，第三方 Gateway 模式）静默加载官方中文界面：不弹 DevTools、不弹文件框、不需要前台焦点。复用 magpie-claude-zh 的语言目录。",
+  "type": "module",
+  "main": "./integrations/magpie/server.mjs",
+  "exports": "./integrations/magpie/server.mjs",
+  "engines": { "node": ">=22" },
+  "author": "Aw999Lab",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/Aw999Lab/magpie-claude-zh-silent.git" },
+  "keywords": ["magpie", "magpie-plugin", "claude", "claude-desktop", "chinese", "localization", "silent", "windows"],
+  "files": ["integrations", "lib", "assets", "README.md", "LICENSE"],
+  "magpie": {
+    "icon": "assets/logo.png",
+    "page": { "title": "Claude 中文（静默）", "file": "integrations/magpie/page/index.html" },
+    "permissions": []
+  }
+}
