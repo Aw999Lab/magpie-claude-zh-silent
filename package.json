@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": { "type": "git", "url": "git+https://github.com/Aw999Lab/magpie-claude-zh-silent.git" },
   "keywords": ["magpie", "magpie-plugin", "claude", "claude-desktop", "chinese", "localization", "silent", "windows"],
-  "files": ["integrations", "lib", "assets", "README.md", "LICENSE"],
+  "files": ["integrations", "lib", "assets", "README.md", "LICENSE", "NOTICE"],
   "magpie": {
     "icon": "assets/logo.png",
     "page": { "title": "Claude 中文（静默）", "file": "integrations/magpie/page/index.html" },
